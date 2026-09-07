@@ -89,18 +89,6 @@ jest.mock('react-native-screens', () => ({
   FullWindowOverlay: ({ children }: { children?: React.ReactNode }) => children,
 }));
 
-// Mock react-native-svg
-jest.mock('react-native-svg', () => {
-  const Passthrough = ({ children }: { children?: React.ReactNode }) => children ?? null;
-  return {
-    __esModule: true,
-    default: Passthrough,
-    Svg: Passthrough,
-    Path: Passthrough,
-    Circle: Passthrough,
-  };
-});
-
 // Mock react-native-gesture-handler
 jest.mock('react-native-gesture-handler', () => {
   const createChainablePanMock = () => {
