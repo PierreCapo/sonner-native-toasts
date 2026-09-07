@@ -179,5 +179,8 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.0"
+  },
+  "overrides": {
+    "@expo/log-box": "55.0.10"
   }
 }

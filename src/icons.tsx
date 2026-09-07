@@ -1,24 +1,9 @@
+export const CircleCheck = () => null;
 
-interface IconProps extends SvgProps {
-  size?: number;
-}
+export const CircleX = () => null;
 
-export const CircleCheck = ({ size, ...props }: IconProps) => (
- null
-);
+export const Info = () => null;
 
-export const CircleX = ({ size, ...props }: IconProps) => (
-null
-);
+export const TriangleAlert = () => null;
 
-export const Info = ({ size, ...props }: IconProps) => (
-null
-);
-
-export const TriangleAlert = ({ size, ...props }: IconProps) => (
-null
-);
-
-export const X = ({ size, ...props }: IconProps) => (
-null
-);
+export const X = () => null;
